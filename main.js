@@ -16,14 +16,9 @@ for (let currentNumber = 1; currentNumber <= 100; currentNumber++) {
     }
 }
 
-// for (let currentNumber = 1; currentNumber <= 100; currentNumber++) {
-    //     // Divide the current number by 2, and check if the remainder is 0
-    //     if (currentNumber % 2 === 0) {
-        //         console.log(currentNumber) // Only 2, 4, 6 will appear
-        //     }
-        // }
-
-
+// Below did not work because it changed the value of currentNumber to a string.
+// The next time it evaluated currentNumber, it was not an intiger and stopped.
+// returned 1, 2, 3, 4, Chicken and stops
         // if (currentNumber % 5 === 0 && currentNumber % 7 === 0) {
         //     currentNumber = "ChickenMonkey"
         // } else if (currentNumber % 5 === 0) {
